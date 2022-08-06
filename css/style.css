@@ -10,7 +10,9 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+    background-image: url('/shiny-pink-background-with-stars-blurry-lights-illustration_567746-2095.webp');
+
 }
 
 html {
@@ -22,6 +24,7 @@ html {
     position: relative;
     max-width: 480px;
     margin: 0 auto;
+    border: 2px solid var(--primary-color);
 }
 
 .player .icon-pause {
@@ -39,7 +42,7 @@ html {
 .dashboard {
     padding: 16px 16px 14px;
     background-color: #fff;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     max-width: 480px;
@@ -95,7 +98,7 @@ header h2 {
 .control .btn {
     color: #666;
     padding: 18px;
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .control .btn.active {
@@ -158,8 +161,9 @@ header h2 {
 /* PLAYLIST */
 
 .playlist {
-    margin-top: 408px;
+    /* margin-top: 408px; */
     padding: 12px;
+    background-color: #f5f5f5;
 }
 
 .song {
@@ -169,7 +173,7 @@ header h2 {
     background-color: #fff;
     padding: 8px 16px;
     border-radius: 5px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 10px -5px var(--primary-color);
 }
 
 .song.active {
